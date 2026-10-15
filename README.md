@@ -38,7 +38,7 @@ This project combines country-level indicators from several tables (economy, dem
 
 ## Data Model
 
-![Data Model](data-model.png)
+![Data Model](m.png)
 
 After the split, the model has one dimension table, **Dim_Country**, linked to the other tables through **Country ID** with one-to-one relationships.
 
@@ -56,7 +56,7 @@ After the split, the model has one dimension table, **Dim_Country**, linked to t
 
 ## Calculated Columns
 
-![Calculated Columns](calculated-columns.png)
+![Calculated Columns](cc.png)
 
 I created calculated columns to group countries into categories that are easy to filter and compare:
 
@@ -70,7 +70,7 @@ I created calculated columns to group countries into categories that are easy to
 
 ## DAX Measures
 
-![DAX Measures](dax-measures.png)
+![DAX Measures](Dax.png)
 
 | Measure | Description |
 |---|---|
